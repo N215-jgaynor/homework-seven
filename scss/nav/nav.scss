@@ -1,0 +1,52 @@
+nav {
+  max-width: $site-width;
+  height: $nav-height;
+  // background-color: $site-blue;
+  margin: 0 auto;
+  border-bottom: 2px solid $site-white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+
+  .logo {
+    width: 92px;
+    height: 42px;
+    background-image: url(/images/logo-white.svg);
+  }
+
+  .links {
+    margin-top: 17.5px;
+    font-family: $secondary-font;
+
+    a {
+      color: $site-white;
+      text-decoration: none;
+      font-size: 15px;
+      // font-family: $secondary-font;
+      letter-spacing: 2px;
+    }
+
+    span {
+      color: $site-blue;
+      margin: 0 13px;
+      font-size: 21.5px;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  nav {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    max-width: 720px;
+  }
+}
+
+//comment
+//comment

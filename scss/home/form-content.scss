@@ -1,0 +1,236 @@
+.form-content {
+  max-width: $home-tour-form-width;
+  // background-color: aqua;
+  min-height: 300px;
+  margin: 50px auto 0 auto;
+
+  h1 {
+    color: $site-black;
+    font-size: 60px;
+    font-family: $primary-font;
+  }
+
+  input {
+    font-family: $secondary-font;
+    // need to figure out how to make the font lighter
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: $site-black;
+    padding-left: 20px;
+  }
+
+  .top-boxesOne {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    // background-color: brown;
+
+    .short-box {
+      width: $form-short-box-width;
+      height: $form-height;
+      border: 2px solid $site-blue;
+    }
+
+    .medium-box {
+      width: $form-medium-box-width;
+      height: $form-height;
+      border: 2px solid $site-blue;
+    }
+  }
+
+  .top-boxesTwo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    // background-color: brown;
+    margin: 20px 0 20px 0;
+
+    .short-box {
+      width: $form-short-box-width;
+      height: $form-height;
+      border: 2px solid $site-blue;
+    }
+
+    .medium-box {
+      width: $form-medium-box-width;
+      height: $form-height;
+      border: 2px solid $site-blue;
+    }
+  }
+
+  .middle-boxesOne {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    // background-color: brown;
+
+    h3 {
+      font-family: $secondary-font;
+      font-size: 18px;
+      color: $site-black;
+      margin: 0 auto 0 0;
+    }
+
+    .long-box {
+      width: $form-long-box-width;
+      height: $form-height;
+      border: 2px solid $site-blue;
+    }
+
+    // .calendar {
+    //   height: 50px;
+    //   width: 50px;
+    //   background-color: blue;
+    // }
+  }
+
+  .middle-boxesTwo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    // background-color: brown;
+    margin: 20px 0;
+
+    h3 {
+      font-family: $secondary-font;
+      font-size: 18px;
+      color: $site-black;
+      margin: 0 auto 0 0;
+    }
+
+    .long-box {
+      width: $form-long-box-width;
+      height: $form-height;
+      border: 2px solid $site-blue;
+    }
+  }
+
+  .adult-children-rooms-container {
+    height: $form-height;
+    // background-color: chocolate;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $site-black;
+    font-family: $secondary-font;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+    h3 {
+      margin: auto 0;
+    }
+
+    .aligned-box-container {
+      width: $form-long-box-width;
+      // background-color: whitesmoke;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      h3 {
+        margin-left: 30px;
+      }
+
+      .xsmall-box {
+        height: $form-height;
+        width: $form-xsmall-box-width;
+        background-color: $site-white;
+        border: 2px solid $site-blue;
+        font-family: $secondary-font;
+        color: $site-black;
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        justify-content: space-between;
+        padding: 0 10px 0 20px;
+
+        h2 {
+          // background-color: blue;
+          margin: auto 0;
+        }
+
+        .downArrow {
+          background-image: url(/images/down-arrow.svg);
+          // background-color: burlywood;
+          width: 20px;
+          height: 10px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+      }
+    }
+  }
+
+  // .bottom-box-container {
+  //   display: flex;
+
+  // ::placeholder {
+  //   color: royalblue;
+  // } -- changes the color of the placeholder text
+
+  .bottom-box-container {
+    display: flex;
+    width: $home-tour-form-width;
+    height: $form-message-box-height;
+    border: 2px solid $site-blue;
+    background-color: $site-white;
+    margin-bottom: 37px;
+    // how to move the placeholder around in the input box?
+
+    input {
+      padding-bottom: 130px;
+    }
+  }
+
+  .form-submit {
+    height: 60.59px;
+    width: $home-tour-form-width;
+    border-radius: 30px;
+    background-color: $site-blue;
+    color: white;
+    font-family: $secondary-font;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+
+    // p {
+    //   margin: auto;
+    // }
+  }
+}
+
+// .top-boxes {
+//   margin-top: 32px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+
+//   .holder {
+//     //   margin-left: -40px;
+//     position: relative;
+
+//     .long-box {
+//       width: 423px;
+//     }
+
+//     input {
+//       width: 344px;
+//       height: 58px;
+//       padding-left: 10px;
+//       //   color: $site-blue;
+//       border-style: solid;
+//       border: 3px solid $site-blue;
+//     }
+
+//     i {
+//       position: absolute;
+//       top: 20px;
+//       right: 10px;
+//     }
+//   }
+// }

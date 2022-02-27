@@ -1,0 +1,91 @@
+.home-tour {
+  max-width: $home-tour-form-width;
+  height: $home-tour-height;
+  //   background-color: aquamarine;
+  margin: -43px auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: $site-white;
+  font-family: $primary-font;
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 30px;
+    margin-bottom: 58px;
+    margin-top: -30px;
+  }
+
+  .learn-more-button {
+    width: $learn-more-button-width;
+    height: $learn-more-button-height;
+    background-color: $site-blue;
+    border-radius: $learn-more-button-radius;
+    color: $site-white;
+    font-size: 15px;
+    font-family: $secondary-font;
+    display: flex;
+    align-items: center;
+
+    p {
+      margin: 0 auto;
+    }
+  }
+
+  .home-tourOne {
+    width: $tour-box-width;
+    height: $tour-box-height;
+    background-image: linear-gradient(
+        rgba($site-black, 0.4),
+        rgba($site-black, 0.4)
+      ),
+      url(../images/tour-01.jpg);
+    //   come back and see if this needs to be darker
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-tourTwo {
+    width: $tour-box-width;
+    height: $tour-box-height;
+    background-image: linear-gradient(
+        rgba($site-black, 0.4),
+        rgba($site-black, 0.4)
+      ),
+      url(../images/tour-02.jpg);
+    //   come back and see if this needs to be darker
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-tourThree {
+    width: $tour-box-width;
+    height: $tour-box-height;
+    background-image: linear-gradient(
+        rgba($site-black, 0.4),
+        rgba($site-black, 0.4)
+      ),
+      url(../images/tour-03.jpg);
+    //   come back and see if this needs to be darker
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

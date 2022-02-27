@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: GillSans-Regular;
+  src: url(fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: ProximaNova-ExtraCondensed;
+  src: url(fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+nav {
+  max-width: 980px;
+  height: 90px;
+  margin: 0 auto;
+  border-bottom: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(/images/logo-white.svg);
+}
+nav .links {
+  margin-top: 17.5px;
+  font-family: GillSans-Regular;
+}
+nav .links a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+nav .links span {
+  color: #79addc;
+  margin: 0 13px;
+  font-size: 21.5px;
+}
+
+@media screen and (max-width: 1280px) {
+  nav {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 900px) {
+  nav {
+    max-width: 720px;
+  }
+}
+.banner {
+  max-width: 1280px;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: -90px auto 0 auto;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banner h1 {
+  margin-top: 90px;
+  font-size: 60px;
+  font-family: ProximaNova-ExtraCondensed;
+}
+.banner .banner-middle-text {
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: GillSans-Regular;
+  font-style: italic;
+  text-align: center;
+}
+.banner .home-banner-button {
+  width: 121.62px;
+  height: 40.04px;
+  background-color: #79addc;
+  margin: 50px 0 43px;
+  font-size: 15px;
+  font-family: GillSans-Regular;
+  display: flex;
+  align-items: center;
+}
+.banner .home-banner-button p {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .banner {
+    max-width: 100%;
+  }
+}
+.home-tour {
+  max-width: 818px;
+  height: 304px;
+  margin: -43px auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-family: ProximaNova-ExtraCondensed;
+}
+.home-tour h1 {
+  font-size: 60px;
+}
+.home-tour h3 {
+  font-size: 30px;
+  margin-bottom: 58px;
+  margin-top: -30px;
+}
+.home-tour .learn-more-button {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  color: white;
+  font-size: 15px;
+  font-family: GillSans-Regular;
+  display: flex;
+  align-items: center;
+}
+.home-tour .learn-more-button p {
+  margin: 0 auto;
+}
+.home-tour .home-tourOne {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-tour .home-tourTwo {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-tour .home-tourThree {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-content {
+  max-width: 818px;
+  min-height: 300px;
+  margin: 50px auto 0 auto;
+}
+.form-content h1 {
+  color: black;
+  font-size: 60px;
+  font-family: ProximaNova-ExtraCondensed;
+}
+.form-content input {
+  font-family: GillSans-Regular;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: black;
+  padding-left: 20px;
+}
+.form-content .top-boxesOne {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-content .top-boxesOne .short-box {
+  width: 344px;
+  height: 58px;
+  border: 2px solid #79addc;
+}
+.form-content .top-boxesOne .medium-box {
+  width: 453px;
+  height: 58px;
+  border: 2px solid #79addc;
+}
+.form-content .top-boxesTwo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0 20px 0;
+}
+.form-content .top-boxesTwo .short-box {
+  width: 344px;
+  height: 58px;
+  border: 2px solid #79addc;
+}
+.form-content .top-boxesTwo .medium-box {
+  width: 453px;
+  height: 58px;
+  border: 2px solid #79addc;
+}
+.form-content .middle-boxesOne {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-content .middle-boxesOne h3 {
+  font-family: GillSans-Regular;
+  font-size: 18px;
+  color: black;
+  margin: 0 auto 0 0;
+}
+.form-content .middle-boxesOne .long-box {
+  width: 698px;
+  height: 58px;
+  border: 2px solid #79addc;
+}
+.form-content .middle-boxesTwo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.form-content .middle-boxesTwo h3 {
+  font-family: GillSans-Regular;
+  font-size: 18px;
+  color: black;
+  margin: 0 auto 0 0;
+}
+.form-content .middle-boxesTwo .long-box {
+  width: 698px;
+  height: 58px;
+  border: 2px solid #79addc;
+}
+.form-content .adult-children-rooms-container {
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  font-family: GillSans-Regular;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.form-content .adult-children-rooms-container h3 {
+  margin: auto 0;
+}
+.form-content .adult-children-rooms-container .aligned-box-container {
+  width: 698px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form-content .adult-children-rooms-container .aligned-box-container h3 {
+  margin-left: 30px;
+}
+.form-content .adult-children-rooms-container .aligned-box-container .xsmall-box {
+  height: 58px;
+  width: 103px;
+  background-color: white;
+  border: 2px solid #79addc;
+  font-family: GillSans-Regular;
+  color: black;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  justify-content: space-between;
+  padding: 0 10px 0 20px;
+}
+.form-content .adult-children-rooms-container .aligned-box-container .xsmall-box h2 {
+  margin: auto 0;
+}
+.form-content .adult-children-rooms-container .aligned-box-container .xsmall-box .downArrow {
+  background-image: url(/images/down-arrow.svg);
+  width: 20px;
+  height: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.form-content .bottom-box-container {
+  display: flex;
+  width: 818px;
+  height: 192px;
+  border: 2px solid #79addc;
+  background-color: white;
+  margin-bottom: 37px;
+}
+.form-content .bottom-box-container input {
+  padding-bottom: 130px;
+}
+.form-content .form-submit {
+  height: 60.59px;
+  width: 818px;
+  border-radius: 30px;
+  background-color: #79addc;
+  color: white;
+  font-family: GillSans-Regular;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  width: 1280px;
+  height: 100px;
+  margin: 100px auto 0 auto;
+  background-color: #79addc;
+}
+footer .footer-content {
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-content .footer-logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(/images/logo-white.svg);
+}
+footer .footer-content .footer-center-text {
+  min-width: 50px;
+  height: 100%;
+  color: white;
+  font-family: GillSans-Regular;
+  font-size: 12px;
+  display: flex;
+}
+footer .footer-content .footer-center-text p {
+  margin: auto;
+}
+footer .footer-content .footer-media-icons {
+  width: 113px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 23px;
+  color: white;
+  align-items: center;
+}
+
+@media screen and (max-width: 1295px) {
+  footer {
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
