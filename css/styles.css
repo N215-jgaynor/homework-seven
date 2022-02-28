@@ -183,6 +183,13 @@ nav .links span {
   align-items: center;
 }
 
+@media screen and (max-width: 900px) {
+  .home-tour {
+    flex-direction: column;
+    min-height: 1022px;
+    align-items: center;
+  }
+}
 .form-content {
   max-width: 818px;
   min-height: 300px;
