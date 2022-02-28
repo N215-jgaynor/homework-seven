@@ -179,11 +179,14 @@
     height: $form-message-box-height;
     border: 2px solid $site-blue;
     background-color: $site-white;
-    margin-bottom: 37px;
+    // margin-bottom: 37px;
     // how to move the placeholder around in the input box?
 
     input {
-      padding-bottom: 130px;
+      // background-color: coral;
+      // // padding-bottom: 130px;
+      width: $home-tour-form-width;
+      border: none;
     }
   }
 
@@ -197,6 +200,7 @@
     font-size: 15px;
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 
     p {
       margin: auto;

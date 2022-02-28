@@ -49,5 +49,17 @@ footer {
 @media screen and (max-width: 1295px) {
   footer {
     max-width: 100%;
+
+    .footer-content {
+      max-width: 80%;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  footer {
+    .footer-content {
+      max-width: 720px;
+    }
   }
 }

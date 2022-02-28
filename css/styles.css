@@ -327,10 +327,10 @@ nav .links span {
   height: 192px;
   border: 2px solid #79addc;
   background-color: white;
-  margin-bottom: 37px;
 }
 .form-content .bottom-box-container input {
-  padding-bottom: 130px;
+  width: 818px;
+  border: none;
 }
 .form-content .form-submit {
   height: 60.59px;
@@ -342,6 +342,7 @@ nav .links span {
   font-size: 15px;
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 .form-content .form-submit p {
   margin: auto;
@@ -443,6 +444,14 @@ footer .footer-content .footer-media-icons {
 @media screen and (max-width: 1295px) {
   footer {
     max-width: 100%;
+  }
+  footer .footer-content {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 900px) {
+  footer .footer-content {
+    max-width: 720px;
   }
 }
 
