@@ -343,7 +343,62 @@ nav .links span {
   display: flex;
   justify-content: center;
 }
+.form-content .form-submit p {
+  margin: auto;
+}
 
+@media screen and (max-width: 900px) {
+  .form-content h1 {
+    text-align: center;
+  }
+  .form-content .top-boxesOne {
+    flex-direction: column;
+  }
+  .form-content .top-boxesOne .short-box {
+    width: 453px;
+    margin-bottom: 20px;
+  }
+  .form-content .top-boxesTwo {
+    flex-direction: column;
+  }
+  .form-content .top-boxesTwo .short-box {
+    width: 453px;
+    margin-bottom: 20px;
+  }
+  .form-content .middle-boxesOne {
+    flex-direction: column;
+  }
+  .form-content .middle-boxesOne h3 {
+    margin: 0 auto 5px auto;
+  }
+  .form-content .middle-boxesOne .long-box {
+    width: 453px;
+  }
+  .form-content .middle-boxesTwo {
+    flex-direction: column;
+  }
+  .form-content .middle-boxesTwo h3 {
+    margin: 0 auto 5px auto;
+  }
+  .form-content .middle-boxesTwo .long-box {
+    width: 453px;
+  }
+  .form-content .adult-children-rooms-container {
+    max-width: 720px;
+    margin: 0 auto 20px auto;
+  }
+  .form-content .adult-children-rooms-container h3 {
+    margin-right: 50px;
+  }
+  .form-content .bottom-box-container {
+    max-width: 453px;
+    margin: 0 auto 20px auto;
+  }
+  .form-content .form-submit {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
 footer {
   width: 1280px;
   height: 100px;

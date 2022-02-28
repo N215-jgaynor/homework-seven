@@ -198,9 +198,84 @@
     display: flex;
     justify-content: center;
 
-    // p {
-    //   margin: auto;
-    // }
+    p {
+      margin: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .form-content {
+    // background-color: blue;
+
+    h1 {
+      text-align: center;
+    }
+
+    .top-boxesOne {
+      flex-direction: column;
+
+      .short-box {
+        width: $form-medium-box-width;
+        margin-bottom: 20px;
+      }
+    }
+
+    .top-boxesTwo {
+      flex-direction: column;
+
+      .short-box {
+        width: $form-medium-box-width;
+        margin-bottom: 20px;
+      }
+    }
+
+    .middle-boxesOne {
+      flex-direction: column;
+      // background-color: blueviolet;
+
+      h3 {
+        margin: 0 auto 5px auto;
+      }
+
+      .long-box {
+        width: $form-medium-box-width;
+      }
+    }
+
+    .middle-boxesTwo {
+      flex-direction: column;
+      // background-color: beige;
+
+      h3 {
+        margin: 0 auto 5px auto;
+      }
+
+      .long-box {
+        width: $form-medium-box-width;
+      }
+    }
+
+    .adult-children-rooms-container {
+      // background: burlywood;
+      max-width: 720px;
+      margin: 0 auto 20px auto;
+
+      h3 {
+        margin-right: 50px;
+      }
+    }
+
+    .bottom-box-container {
+      // background-color: cadetblue;
+      max-width: $form-medium-box-width;
+      margin: 0 auto 20px auto;
+    }
+
+    .form-submit {
+      max-width: 720px;
+      margin: 0 auto;
+    }
   }
 }
 
