@@ -41,7 +41,7 @@ nav {
 nav .logo {
   width: 92px;
   height: 42px;
-  background-image: url(/images/logo-white.svg);
+  background-image: url(../images/logo-white.svg);
 }
 nav .links {
   margin-top: 17.5px;
