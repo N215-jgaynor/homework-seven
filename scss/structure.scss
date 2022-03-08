@@ -17,6 +17,15 @@ p {
   margin-bottom: 16px;
 }
 
+#app {
+  max-width: $site-width;
+  margin: 0 auto;
+  // min-height: 200px;
+  // background-color: brown;
+}
+
+// this area is for fonts
+
 @font-face {
   font-family: GillSans-Regular;
   src: url(fonts/GillSans.ttc);

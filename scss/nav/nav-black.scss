@@ -1,0 +1,50 @@
+// is there a way to use media queries to target elements for different pages as opposed to when it hits certain pixel values? For example changing the nav from white to black with a media query?
+.nav-black {
+  max-width: $site-width;
+  height: $nav-height;
+  // background-color: $site-blue;
+  margin: 0 auto;
+  border-bottom: 2px solid $site-black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+
+  .logo {
+    width: 92px;
+    height: 42px;
+    background-image: url(../images/logo-black.svg);
+  }
+
+  .links {
+    margin-top: 17.5px;
+    font-family: $secondary-font;
+
+    a {
+      color: $site-black;
+      text-decoration: none;
+      font-size: 15px;
+      // font-family: $secondary-font;
+      letter-spacing: 2px;
+    }
+
+    span {
+      color: $site-blue;
+      margin: 0 13px;
+      font-size: 21.5px;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .nav-black {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .nav-black {
+    max-width: 720px;
+  }
+}

@@ -19,6 +19,11 @@ p {
   margin-bottom: 16px;
 }
 
+#app {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
 @font-face {
   font-family: GillSans-Regular;
   src: url(fonts/GillSans.ttc);
@@ -453,6 +458,51 @@ footer .footer-content .footer-media-icons {
   footer .footer-content {
     max-width: 720px;
   }
+}
+.nav-black {
+  max-width: 980px;
+  height: 90px;
+  margin: 0 auto;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+.nav-black .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo-black.svg);
+}
+.nav-black .links {
+  margin-top: 17.5px;
+  font-family: GillSans-Regular;
+}
+.nav-black .links a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.nav-black .links span {
+  color: #79addc;
+  margin: 0 13px;
+  font-size: 21.5px;
+}
+
+@media screen and (max-width: 1280px) {
+  .nav-black {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .nav-black {
+    max-width: 720px;
+  }
+}
+.about {
+  margin: 100px 0 179px 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
