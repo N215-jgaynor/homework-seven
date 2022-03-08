@@ -422,7 +422,7 @@ footer .footer-content {
 footer .footer-content .footer-logo {
   width: 92px;
   height: 42px;
-  background-image: url(/images/logo-white.svg);
+  background-image: url(../images/logo-white.svg);
 }
 footer .footer-content .footer-center-text {
   min-width: 50px;
