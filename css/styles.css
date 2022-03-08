@@ -503,6 +503,83 @@ footer .footer-content .footer-media-icons {
 }
 .about {
   margin: 100px 0 179px 0;
+  color: black;
+  width: 980px;
+}
+.about .about-header {
+  margin-bottom: 101px;
+}
+.about .about-header h1 {
+  font-family: ProximaNova-ExtraCondensed;
+  font-size: 60px;
+  letter-spacing: 4px;
+  font-weight: lighter;
+  background-color: burlywood;
+}
+.about .about-header .about-underline {
+  height: 2px;
+  width: 171px;
+  background-color: black;
+  margin-top: -20px;
+}
+.about .about-header p {
+  margin-top: 36px;
+  font-family: GillSans-Regular;
+  letter-spacing: 2px;
+}
+.about .about-client-quotes h1 {
+  font-family: ProximaNova-ExtraCondensed;
+  letter-spacing: 4px;
+  font-weight: lighter;
+  font-size: 40px;
+  width: 980px;
+}
+.about .about-client-quotes .client-quotes-underline {
+  width: 255px;
+  height: 2px;
+  background-color: black;
+  margin-top: -10px;
+}
+.about .about-client-quotes .client-box {
+  max-width: 722px;
+  display: flex;
+  position: relative;
+  margin: 36px 0 20px 0;
+}
+.about .about-client-quotes .client-box .client-image-one {
+  width: 260px;
+  height: 150px;
+  margin-right: 21px;
+  background-image: url(../images/about-client-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about .about-client-quotes .client-box .client-image-two {
+  width: 260px;
+  height: 150px;
+  margin-right: 21px;
+  background-image: url(../images/about-client-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about .about-client-quotes .client-box .client-quote {
+  max-width: 440px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  font-family: GillSans-Regular;
+  font-style: italic;
+}
+.about .about-client-quotes .client-box .client-name {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #79addc;
+  letter-spacing: 4px;
+  font-family: ProximaNova-ExtraCondensed;
+  font-size: 20px;
+  font-weight: lighter;
 }
 
 /*# sourceMappingURL=styles.css.map */
