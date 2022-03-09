@@ -1,0 +1,23 @@
+.tours {
+  margin-top: $default-nav-bottom-margin;
+
+  .tours-hero {
+    width: 981px;
+    height: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tours-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      font-size: 60px;
+      letter-spacing: 4px;
+      font-family: $primary-font;
+      color: white;
+    }
+  }
+}
