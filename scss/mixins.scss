@@ -1,0 +1,20 @@
+@mixin promo($bgImage: #faebd7) {
+  height: 304px;
+  width: 235px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url($bgImage);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+//@mixin site-button($cornerRadius: 5px, $btnPadding: 5px 15px) {
+//     background-color: $site-background;
+//     padding: $btnPadding;
+//     border-radius: $cornerRadius;
+//     color: white;
+//     cursor: pointer;
+//   }
+
+// https://stackoverflow.com/questions/5448044/sass-background-image-mixin
