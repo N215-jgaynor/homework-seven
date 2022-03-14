@@ -1,26 +1,27 @@
-# Homework Five
+# Homework Six
 
 ## Web 4 Link
 
-https://in-info-web4.informatics.iupui.edu/~jgaynor/homework-five/#
+https://in-info-web4.informatics.iupui.edu/~jgaynor/homework-six/#
 
 ## Summary
 
-This assignment was the continuation of an introduction to responsive and adaptive design. It took an existing project (the home page of a travel agent business) and added an about page that was also responsive.
-
-For example, I set the nav (shown below) and footer to fit to 80% of the browser from 1280px to 900px, at which point it becomes a set width of 720px for anything smaller than 900px. This styling fits the assignment description (responsive down to 800px) but it would need to be adjusted for smaller viewports.
+In addition to the skills developed in prior homework assignments (such as the use of responsive/adaptive design and variables), this task involved the use of mixins. I found these to be super helpful for replicating styling in different pages while still being able to make small changes as necessary. An example of a mixin in displayed below.
 
 ```css
-@media screen and (max-width: 1280px) {
-  nav {
-    max-width: 80%;
-  }
+@mixin promo($bgImage) {
+  height: 304px;
+  width: 235px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url($bgImage);
 }
 
-@media screen and (max-width: 900px) {
-  nav {
-    max-width: 720px;
-  }
+.tour-desc-header {
+  @include tourDescHeader("../images/tour-09.jpg");
+}
+
+.tour-desc-img-container {
+  @include tourDescImgContainer;
 }
 ```
 
