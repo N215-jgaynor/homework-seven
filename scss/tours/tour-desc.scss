@@ -1,0 +1,23 @@
+.tour-one {
+  margin-top: 48px;
+
+  .tour-desc-header {
+    @include tourDescHeader("../images/tour-01.jpg");
+  }
+
+  .tour-desc-img-container {
+    @include tourDescImgContainer;
+
+    .desc-promo-one-first {
+      @include tourDescPromo("../images/israel/israel-tour-01.jpg");
+    }
+
+    .desc-promo-one-second {
+      @include tourDescPromo("../images/israel/israel-tour-02.jpg");
+    }
+
+    .desc-promo-one-third {
+      @include tourDescPromo("../images/israel/israel-tour-03.jpg");
+    }
+  }
+}

@@ -1,3 +1,4 @@
+// these are for the promo images/text
 @mixin promo($bgImage) {
   height: 304px;
   width: 235px;
@@ -39,10 +40,62 @@
   font-family: $secondary-font;
   display: flex;
   align-items: center;
+  letter-spacing: normal;
+
+  a {
+    margin: 0 auto;
+    text-decoration: none;
+    color: white;
+  }
+}
+
+// these are for the tour-desc pages
+@mixin tourDescHeader($bgImage) {
+  height: 413px;
+  width: 981px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url($bgImage);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+  margin-bottom: 40px;
+
+  h1 {
+    font-size: 80px;
+    font-family: $primary-font;
+    font-style: thin;
+    position: absolute;
+    inset: 30px 0 0 30px;
+  }
 
   p {
-    margin: 0 auto;
+    font-size: 30px;
+    font-family: $primary-font;
+    font-style: thin;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -5px;
   }
+}
+
+@mixin tourDescImgContainer {
+  min-height: 347px;
+  // background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin tourDescPromo($bgImage) {
+  width: 298px;
+  height: 347px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url($bgImage);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 // https://stackoverflow.com/questions/5448044/sass-background-image-mixin
