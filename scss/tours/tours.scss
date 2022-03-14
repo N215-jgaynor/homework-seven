@@ -27,16 +27,108 @@
   .tour-container-one {
     height: 304px;
     width: 818px;
-    background-color: yellow;
+    margin-bottom: 55px;
+    // background-color: yellow;
     display: flex;
     justify-content: space-between;
 
-    .promo {
-      @include promo(
-        $bgImage: (
-          ../images/tour-01.jpg,
-        )
-      );
+    .promo-01 {
+      @include promo("../images/tour-01.jpg");
+      @include promoText;
+
+      .promo-button {
+        @include promoButton;
+      }
+    }
+
+    .promo-02 {
+      @include promo("../images/tour-02.jpg");
+      @include promoText;
+
+      .promo-button {
+        @include promoButton;
+      }
+    }
+
+    .promo-03 {
+      @include promo("../images/tour-03.jpg");
+      @include promoText;
+
+      .promo-button {
+        @include promoButton;
+      }
+    }
+  }
+
+  .tour-container-two {
+    height: 304px;
+    width: 818px;
+    margin-bottom: 55px;
+    // background-color: blue;
+    display: flex;
+    justify-content: space-between;
+
+    .promo-04 {
+      @include promo("../images/tour-04.jpg");
+      @include promoText;
+
+      .promo-button {
+        @include promoButton;
+      }
+    }
+
+    .promo-05 {
+      @include promo("../images/tour-05.jpg");
+      @include promoText;
+
+      .promo-button {
+        @include promoButton;
+      }
+    }
+
+    .promo-06 {
+      @include promo("../images/tour-06.jpg");
+      @include promoText;
+
+      .promo-button {
+        @include promoButton;
+      }
+    }
+  }
+
+  .tour-container-three {
+    height: 304px;
+    width: 818px;
+    // margin-bottom: 55px;
+    // background-color: blue;
+    display: flex;
+    justify-content: space-between;
+
+    .promo-07 {
+      @include promo("../images/tour-07.jpg");
+      @include promoText;
+
+      .promo-button {
+        @include promoButton;
+      }
+    }
+
+    .promo-08 {
+      @include promo("../images/tour-08.jpg");
+      @include promoText;
+
+      .promo-button {
+        @include promoButton;
+      }
+    }
+
+    .promo-09 {
+      @include promo("../images/tour-09.jpg");
+      @include promoText;
+
+      .promo-button {
+        @include promoButton;
+      }
     }
   }
 }

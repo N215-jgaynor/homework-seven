@@ -1,4 +1,4 @@
-@mixin promo($bgImage: #faebd7) {
+@mixin promo($bgImage) {
   height: 304px;
   width: 235px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -7,14 +7,42 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 
-//@mixin site-button($cornerRadius: 5px, $btnPadding: 5px 15px) {
-//     background-color: $site-background;
-//     padding: $btnPadding;
-//     border-radius: $cornerRadius;
-//     color: white;
-//     cursor: pointer;
-//   }
+@mixin promoText {
+  background-color: yellowgreen;
+  font-family: $primary-font;
+  font-style: thin;
+
+  h1 {
+    margin-bottom: 0px;
+    font-size: 60px;
+  }
+
+  h2 {
+    margin-top: 0px;
+    margin-bottom: 56px;
+    font-size: 30px;
+  }
+}
+
+@mixin promoButton {
+  width: 133px;
+  height: 40px;
+  background-color: $site-blue;
+  border-radius: 20px;
+  font-size: 15px;
+  font-family: $secondary-font;
+  display: flex;
+  align-items: center;
+
+  p {
+    margin: 0 auto;
+  }
+}
 
 // https://stackoverflow.com/questions/5448044/sass-background-image-mixin
