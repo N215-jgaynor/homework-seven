@@ -31,6 +31,270 @@
   }
 }
 
+.tour-two {
+  margin: 48px auto 29px auto;
+
+  .tour-desc-header {
+    @include tourDescHeader("../images/tour-02.jpg");
+  }
+
+  .tour-desc-img-container {
+    @include tourDescImgContainer;
+
+    .desc-promo-one-first {
+      @include tourDescPromo("../images/usa/usa-tour-01.jpg");
+    }
+
+    .desc-promo-one-second {
+      @include tourDescPromo("../images/usa/usa-tour-02.jpg");
+    }
+
+    .desc-promo-one-third {
+      @include tourDescPromo("../images/usa/usa-tour-03.jpg");
+    }
+  }
+
+  .blog-container {
+    @include tourDescBlog;
+  }
+
+  .book-now-button {
+    margin: 0 auto;
+    @include promoButton;
+  }
+}
+
+.tour-three {
+  margin: 48px auto 29px auto;
+
+  .tour-desc-header {
+    @include tourDescHeader("../images/tour-03.jpg");
+  }
+
+  .tour-desc-img-container {
+    @include tourDescImgContainer;
+
+    .desc-promo-one-first {
+      @include tourDescPromo("../images/aus/aus-tour-01.jpg");
+    }
+
+    .desc-promo-one-second {
+      @include tourDescPromo("../images/aus/aus-tour-02.jpg");
+    }
+
+    .desc-promo-one-third {
+      @include tourDescPromo("../images/aus/aus-tour-03.jpg");
+    }
+  }
+
+  .blog-container {
+    @include tourDescBlog;
+  }
+
+  .book-now-button {
+    margin: 0 auto;
+    @include promoButton;
+  }
+}
+
+.tour-four {
+  margin: 48px auto 29px auto;
+
+  .tour-desc-header {
+    @include tourDescHeader("../images/tour-04.jpg");
+  }
+
+  .tour-desc-img-container {
+    @include tourDescImgContainer;
+
+    .desc-promo-one-first {
+      @include tourDescPromo("../images/nz/nz-tour-01.jpg");
+    }
+
+    .desc-promo-one-second {
+      @include tourDescPromo("../images/nz/nz-tour-02.jpg");
+    }
+
+    .desc-promo-one-third {
+      @include tourDescPromo("../images/nz/nz-tour-03.jpg");
+    }
+  }
+
+  .blog-container {
+    @include tourDescBlog;
+  }
+
+  .book-now-button {
+    margin: 0 auto;
+    @include promoButton;
+  }
+}
+
+.tour-five {
+  margin: 48px auto 29px auto;
+
+  .tour-desc-header {
+    @include tourDescHeader("../images/tour-05.jpg");
+  }
+
+  .tour-desc-img-container {
+    @include tourDescImgContainer;
+
+    .desc-promo-one-first {
+      @include tourDescPromo("../images/france/france-tour-01.jpg");
+    }
+
+    .desc-promo-one-second {
+      @include tourDescPromo("../images/france/france-tour-02.jpg");
+    }
+
+    .desc-promo-one-third {
+      @include tourDescPromo("../images/france/france-tour-03.jpg");
+    }
+  }
+
+  .blog-container {
+    @include tourDescBlog;
+  }
+
+  .book-now-button {
+    margin: 0 auto;
+    @include promoButton;
+  }
+}
+
+.tour-six {
+  margin: 48px auto 29px auto;
+
+  .tour-desc-header {
+    @include tourDescHeader("../images/tour-06.jpg");
+  }
+
+  .tour-desc-img-container {
+    @include tourDescImgContainer;
+
+    .desc-promo-one-first {
+      @include tourDescPromo("../images/egypt/egypt-tour-01.jpg");
+    }
+
+    .desc-promo-one-second {
+      @include tourDescPromo("../images/egypt/egypt-tour-02.jpg");
+    }
+
+    .desc-promo-one-third {
+      @include tourDescPromo("../images/egypt/egypt-tour-03.jpg");
+    }
+  }
+
+  .blog-container {
+    @include tourDescBlog;
+  }
+
+  .book-now-button {
+    margin: 0 auto;
+    @include promoButton;
+  }
+}
+
+.tour-seven {
+  margin: 48px auto 29px auto;
+
+  .tour-desc-header {
+    @include tourDescHeader("../images/tour-07.jpg");
+  }
+
+  .tour-desc-img-container {
+    @include tourDescImgContainer;
+
+    .desc-promo-one-first {
+      @include tourDescPromo("../images/japan/japan-tour-01.jpg");
+    }
+
+    .desc-promo-one-second {
+      @include tourDescPromo("../images/japan/japan-tour-02.jpg");
+    }
+
+    .desc-promo-one-third {
+      @include tourDescPromo("../images/japan/japan-tour-03.jpg");
+    }
+  }
+
+  .blog-container {
+    @include tourDescBlog;
+  }
+
+  .book-now-button {
+    margin: 0 auto;
+    @include promoButton;
+  }
+}
+
+.tour-eight {
+  margin: 48px auto 29px auto;
+
+  .tour-desc-header {
+    @include tourDescHeader("../images/tour-08.jpg");
+  }
+
+  .tour-desc-img-container {
+    @include tourDescImgContainer;
+
+    .desc-promo-one-first {
+      @include tourDescPromo("../images/canada/canada-tour-01.jpg");
+    }
+
+    .desc-promo-one-second {
+      @include tourDescPromo("../images/canada/canada-tour-02.jpg");
+    }
+
+    .desc-promo-one-third {
+      @include tourDescPromo("../images/canada/canada-tour-03.jpg");
+    }
+  }
+
+  .blog-container {
+    @include tourDescBlog;
+  }
+
+  .book-now-button {
+    margin: 0 auto;
+    @include promoButton;
+  }
+}
+
+.tour-nine {
+  margin: 48px auto 29px auto;
+
+  .tour-desc-header {
+    @include tourDescHeader("../images/tour-09.jpg");
+  }
+
+  .tour-desc-img-container {
+    @include tourDescImgContainer;
+
+    .desc-promo-one-first {
+      @include tourDescPromo("../images/uae/uae-tour-01.jpg");
+    }
+
+    .desc-promo-one-second {
+      @include tourDescPromo("../images/uae/uae-tour-02.jpg");
+    }
+
+    .desc-promo-one-third {
+      @include tourDescPromo("../images/uae/uae-tour-03.jpg");
+    }
+  }
+
+  .blog-container {
+    @include tourDescBlog;
+  }
+
+  .book-now-button {
+    margin: 0 auto;
+    @include promoButton;
+  }
+}
+
 @media screen and (max-width: 1280px) {
   .tours-desc-header {
     max-width: 80%;
