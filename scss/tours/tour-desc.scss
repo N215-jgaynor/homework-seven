@@ -1,5 +1,5 @@
 .tour-one {
-  margin-top: 48px;
+  margin: 48px auto 29px auto;
 
   .tour-desc-header {
     @include tourDescHeader("../images/tour-01.jpg");
@@ -19,5 +19,26 @@
     .desc-promo-one-third {
       @include tourDescPromo("../images/israel/israel-tour-03.jpg");
     }
+  }
+
+  .blog-container {
+    @include tourDescBlog;
+  }
+
+  .book-now-button {
+    margin: 0 auto;
+    @include promoButton;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .tours-desc-header {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .tours-desc-header {
+    max-width: 720px;
   }
 }

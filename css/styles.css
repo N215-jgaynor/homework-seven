@@ -588,9 +588,9 @@ footer .footer-content .footer-media-icons {
   align-items: center;
 }
 .tours .tours-hero {
-  margin: 48px auto;
   width: 981px;
   height: 200px;
+  margin: 48px auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours-header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -627,6 +627,7 @@ footer .footer-content .footer-media-icons {
   background-color: yellowgreen;
   font-family: ProximaNova-ExtraCondensed;
   font-style: thin;
+  text-align: center;
 }
 .tours .tour-container-one .promo-01 h1 {
   margin-bottom: 0px;
@@ -668,6 +669,7 @@ footer .footer-content .footer-media-icons {
   background-color: yellowgreen;
   font-family: ProximaNova-ExtraCondensed;
   font-style: thin;
+  text-align: center;
 }
 .tours .tour-container-one .promo-02 h1 {
   margin-bottom: 0px;
@@ -709,6 +711,7 @@ footer .footer-content .footer-media-icons {
   background-color: yellowgreen;
   font-family: ProximaNova-ExtraCondensed;
   font-style: thin;
+  text-align: center;
 }
 .tours .tour-container-one .promo-03 h1 {
   margin-bottom: 0px;
@@ -757,6 +760,7 @@ footer .footer-content .footer-media-icons {
   background-color: yellowgreen;
   font-family: ProximaNova-ExtraCondensed;
   font-style: thin;
+  text-align: center;
 }
 .tours .tour-container-two .promo-04 h1 {
   margin-bottom: 0px;
@@ -798,6 +802,7 @@ footer .footer-content .footer-media-icons {
   background-color: yellowgreen;
   font-family: ProximaNova-ExtraCondensed;
   font-style: thin;
+  text-align: center;
 }
 .tours .tour-container-two .promo-05 h1 {
   margin-bottom: 0px;
@@ -839,6 +844,7 @@ footer .footer-content .footer-media-icons {
   background-color: yellowgreen;
   font-family: ProximaNova-ExtraCondensed;
   font-style: thin;
+  text-align: center;
 }
 .tours .tour-container-two .promo-06 h1 {
   margin-bottom: 0px;
@@ -886,6 +892,7 @@ footer .footer-content .footer-media-icons {
   background-color: yellowgreen;
   font-family: ProximaNova-ExtraCondensed;
   font-style: thin;
+  text-align: center;
 }
 .tours .tour-container-three .promo-07 h1 {
   margin-bottom: 0px;
@@ -927,6 +934,7 @@ footer .footer-content .footer-media-icons {
   background-color: yellowgreen;
   font-family: ProximaNova-ExtraCondensed;
   font-style: thin;
+  text-align: center;
 }
 .tours .tour-container-three .promo-08 h1 {
   margin-bottom: 0px;
@@ -968,6 +976,7 @@ footer .footer-content .footer-media-icons {
   background-color: yellowgreen;
   font-family: ProximaNova-ExtraCondensed;
   font-style: thin;
+  text-align: center;
 }
 .tours .tour-container-three .promo-09 h1 {
   margin-bottom: 0px;
@@ -1018,18 +1027,19 @@ footer .footer-content .footer-media-icons {
   }
 }
 .tour-one {
-  margin-top: 48px;
+  margin: 48px auto 29px auto;
 }
 .tour-one .tour-desc-header {
   height: 413px;
   width: 981px;
+  margin: 0 auto 40px auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour-01.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
   position: relative;
   color: white;
-  margin-bottom: 40px;
 }
 .tour-one .tour-desc-header h1 {
   font-size: 80px;
@@ -1055,7 +1065,7 @@ footer .footer-content .footer-media-icons {
 .tour-one .tour-desc-img-container .desc-promo-one-first {
   width: 298px;
   height: 347px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/israel/israel-tour-01.jpg");
+  background-image: url("../images/israel/israel-tour-01.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1063,7 +1073,7 @@ footer .footer-content .footer-media-icons {
 .tour-one .tour-desc-img-container .desc-promo-one-second {
   width: 298px;
   height: 347px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/israel/israel-tour-02.jpg");
+  background-image: url("../images/israel/israel-tour-02.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1071,10 +1081,60 @@ footer .footer-content .footer-media-icons {
 .tour-one .tour-desc-img-container .desc-promo-one-third {
   width: 298px;
   height: 347px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/israel/israel-tour-03.jpg");
+  background-image: url("../images/israel/israel-tour-03.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.tour-one .blog-container {
+  min-height: 204px;
+}
+.tour-one .blog-container h1 {
+  font-family: ProximaNova-ExtraCondensed;
+  font-size: 60px;
+  letter-spacing: 4px;
+  font-weight: lighter;
+  margin-top: 29px;
+}
+.tour-one .blog-container .about-underline {
+  height: 2px;
+  width: 171px;
+  background-color: black;
+  margin-top: -20px;
+}
+.tour-one .blog-container p {
+  margin-top: 36px;
+  font-family: GillSans-Regular;
+  letter-spacing: 2px;
+  margin-bottom: 80px;
+}
+.tour-one .book-now-button {
+  margin: 0 auto;
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  font-size: 15px;
+  font-family: GillSans-Regular;
+  display: flex;
+  align-items: center;
+  letter-spacing: normal;
+}
+.tour-one .book-now-button a {
+  margin: 0 auto;
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 1280px) {
+  .tours-desc-header {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .tours-desc-header {
+    max-width: 720px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
