@@ -8,7 +8,32 @@
       width: 186px;
       height: 2px;
       background-color: black;
-      margin-top: -10px;
+      margin: -10px 0 35px 0;
+    }
+  }
+
+  .offer-box {
+    max-width: 514px;
+    min-height: 287px;
+    // background-color: brown;
+    display: flex;
+    position: relative;
+    margin-bottom: 60px;
+
+    .offer-image-one {
+      @include offerImage("../images/special-offer-01.jpg");
+    }
+
+    .offer-image-two {
+      @include offerImage("../images/special-offer-02.jpg");
+    }
+
+    .offer-content {
+      @include offerContent(176px);
+
+      .offer-button {
+        @include promoButton();
+      }
     }
   }
 }

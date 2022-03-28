@@ -127,4 +127,43 @@
   }
 }
 
+// this area is for the special offer page
+@mixin offerImage($bgImage) {
+  width: 199px;
+  height: 287px;
+  background-image: url($bgImage);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@mixin offerContent($underline-width) {
+  max-width: 315px;
+  margin-left: 20px;
+
+  .offer-box-header {
+    font-family: $primary-font;
+    font-size: 30px;
+    color: black;
+
+    span {
+      font-size: 20px;
+      color: $special-offer-discount;
+    }
+
+    .offer-box-underline {
+      width: $underline-width;
+      height: 2px;
+      background-color: black;
+      margin: -15px 0 22px 0;
+    }
+  }
+
+  .offer-text {
+    font-family: $secondary-font;
+    font-weight: lighter;
+    margin-bottom: 52px;
+  }
+}
+
 // https://stackoverflow.com/questions/5448044/sass-background-image-mixin
