@@ -226,4 +226,9 @@
   }
 }
 
+// this area is for the contact page
+@mixin contactBox($boxHeight) {
+  height: $boxHeight;
+}
+
 // https://stackoverflow.com/questions/5448044/sass-background-image-mixin
