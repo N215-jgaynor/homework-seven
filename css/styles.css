@@ -1954,5 +1954,16 @@ footer .footer-content .footer-media-icons {
     max-width: 720px;
   }
 }
+.special-offers .special-offer-header {
+  margin-top: 60px;
+  font-family: ProximaNova-ExtraCondensed;
+  font-size: 30px;
+}
+.special-offers .special-offer-header .special-offer-header-underline {
+  width: 186px;
+  height: 2px;
+  background-color: black;
+  margin-top: -10px;
+}
 
 /*# sourceMappingURL=styles.css.map */
