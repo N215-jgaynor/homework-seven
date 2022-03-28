@@ -1,0 +1,18 @@
+.blog {
+  .blog-header {
+    margin-top: 60px;
+    font-family: $primary-font;
+    font-size: 30px;
+
+    .blog-header-underline {
+      width: 106px;
+      height: 2px;
+      background-color: black;
+      margin: -10px 0 35px 0;
+    }
+  }
+
+  .blog-box {
+    @include blogBox();
+  }
+}
