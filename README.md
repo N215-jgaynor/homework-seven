@@ -1,8 +1,8 @@
-# Homework Six
+# Homework Seven
 
 ## Web 4 Link
 
-https://in-info-web4.informatics.iupui.edu/~jgaynor/homework-six/#
+https://in-info-web4.informatics.iupui.edu/~jgaynor/homework-seven/#
 
 ## Summary
 
@@ -25,4 +25,4 @@ In addition to the skills developed in prior homework assignments (such as the u
 }
 ```
 
-This project also introduced the "app" ID, in which we will eventually use to dynamically load content onto our pages. For now though, it just serves as a container that centers the content of the about page and defines its width.
+This project simply continued the last one by finishing out the website with the special offers, blog and contact pages. In these pages I utilized both variables and mixins to optimize my code.
